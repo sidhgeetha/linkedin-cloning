@@ -12,7 +12,7 @@
   <body class="bg-gray-100">
     <header class="border-b border-gray-100 bg-white">
       <nav
-        class="layout_wrapper  max-w-7xl mx-auto flex items-center text-center px-6  gap-28 ">
+        class="  max-w-7xl mx-auto flex items-center justify-between gap-4  px-4 h-14   ">
 
         <!-- Left -->
         <div class="flex items-center gap-4 ">
@@ -21,9 +21,9 @@
               fill="#0A66C2"
               d="M218.123 218.127h-37.931v-59.403c0-14.165-.253-32.4-19.728-32.4c-19.756 0-22.779 15.434-22.779 31.369v60.43h-37.93V95.967h36.413v16.694h.51a39.91 39.91 0 0 1 35.928-19.733c38.445 0 45.533 25.288 45.533 58.186zM56.955 79.27c-12.157.002-22.014-9.852-22.016-22.009s9.851-22.014 22.008-22.016c12.157-.003 22.014 9.851 22.016 22.008A22.013 22.013 0 0 1 56.955 79.27m18.966 138.858H37.95V95.967h37.97zM237.033.018H18.89C8.58-.098.125 8.161-.001 18.471v219.053c.122 10.315 8.576 18.582 18.89 18.474h218.144c10.336.128 18.823-8.139 18.966-18.474V18.454c-.147-10.33-8.635-18.588-18.966-18.453" /></svg>
 
-          <div class="relative w-fit flex items-center gap-4">
+          <div class="relative flex items-center ">
             <!-- Search icon -->
-            <svg class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+            <svg class="absolute left-3  text-gray-800 w-8 h-8 sm:w-4 sm:h-4 "
               xmlns="http://www.w3.org/2000/svg" width="16" height="16"
               viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
                 fill="currentColor"
@@ -33,89 +33,99 @@
             <input
               type="search"
               placeholder="Search"
-              class="border border-gray-200 rounded-full p-2 pl-8 text-xs w-60 focus:outline-none" />
+              class="hidden sm:block border border-gray-400 rounded-full p-2 pl-8 text-sm w-60 focus:outline-none" />
           </div>
         </div>
 
-        <!-- right -->
+        <!-- navlinks right -->
 
         <div class="navlinks-center flex items-center ">
-          <ul
-            class="flex items-center text-[12px] font-sans text-center gap-4 mr-3">
-            <div class="flex flex-col items-center ">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                viewBox="0 0 24 24"><!-- Icon from Material Symbols Light by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path
-                  fill="currentColor"
-                  d="M7.308 19q-.667 0-1.141-.475t-.475-1.14V9.946L3 11.952q-.177.115-.365.097q-.189-.018-.323-.195q-.135-.177-.114-.365q.021-.189.198-.324l8.629-6.451q.217-.162.467-.233T12 4.409t.509.072t.466.232l3.371 2.51v-1.28q0-.393.275-.668Q16.897 5 17.29 5t.667.275t.274.667v2.696l3.392 2.528q.171.134.195.323t-.11.365t-.323.195t-.366-.097l-2.692-2.006v7.439q0 .666-.475 1.14t-1.14.475h-1.289q-.666 0-1.14-.475t-.475-1.14v-2q0-.667-.475-1.141t-1.14-.475h-.385q-.667 0-1.141.475t-.475 1.14v2q0 .667-.474 1.142T8.577 19zm2.884-8.994h3.616q0-.704-.542-1.159q-.543-.455-1.266-.455t-1.265.454t-.543 1.16" /></svg>
-              <li class="w-20"><a href="#">Home</a></li>
-            </div>
-
-            <div class="flex flex-col items-center text-gray-500 ">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24 "
-                viewBox="0 0 15 15"><!-- Icon from Teenyicons by smhmd - https://github.com/teenyicons/teenyicons/blob/master/LICENSE --><path
-                  fill="currentColor"
-                  d="M5.5 0a3.499 3.499 0 1 0 0 6.996A3.499 3.499 0 1 0 5.5 0m-2 8.994a3.5 3.5 0 0 0-3.5 3.5v2.497h11v-2.497a3.5 3.5 0 0 0-3.5-3.5zm9 1.006H12v5h3v-2.5a2.5 2.5 0 0 0-2.5-2.5" /><path
-                  fill="currentColor"
-                  d="M11.5 4a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5" /></svg>
-              <li class="w-20"><a href="#">My Network</a></li>
-            </div>
-
-            <div class="flex flex-col items-center text-gray-500 ">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                viewBox="0 0 24 24"><!-- Icon from MingCute Icon by MingCute Design - https://github.com/Richard9394/MingCute/blob/main/LICENSE --><g
-                  fill="none" fill-rule="evenodd"><path
-                    d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z" /><path
+          
+          <ul class="flex items-center gap-8">
+            
+              <!-- nav links inside unordered list -->
+              <li
+                class=" flex flex-col items-center justify-center text-gray-600 hover:text-black cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path
                     fill="currentColor"
-                    d="M10 4a3 3 0 0 0-3 3H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3a3 3 0 0 0-3-3zm0 2a1 1 0 0 0-1 1h6a1 1 0 0 0-1-1zm-6 7a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2z" /></g></svg>
-              <li class="w-20"><a href="#">Jobs</a></li>
-            </div>
+                    d="M5 20v-9.15L2.2 13L1 11.4L12 3l4 3.05V4h3v4.35l4 3.05l-1.2 1.6l-2.8-2.15V20h-5v-6h-4v6zm5-9.975h4q0-.8-.6-1.313T12 8.2t-1.4.513t-.6 1.312" /></svg>
 
-            <div class="flex flex-col items-center text-gray-500 ">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                viewBox="0 0 24 24"><!-- Icon from Flowbite Icons by Themesberg - https://github.com/themesberg/flowbite-icons/blob/main/LICENSE --><path
-                  fill="currentColor" fill-rule="evenodd"
-                  d="M3 5.983C3 4.888 3.895 4 5 4h14c1.105 0 2 .888 2 1.983v8.923a1.99 1.99 0 0 1-2 1.983h-6.6l-2.867 2.7c-.955.899-2.533.228-2.533-1.08v-1.62H5c-1.105 0-2-.888-2-1.983zm5.706 3.809a1 1 0 1 0-1.412 1.417a1 1 0 1 0 1.412-1.417m2.585.002a1 1 0 1 1 .003 1.414a1 1 0 0 1-.003-1.414m5.415-.002a1 1 0 1 0-1.412 1.417a1 1 0 1 0 1.412-1.417"
-                  clip-rule="evenodd" /></svg> <li class="w-20"><a
-                  href="#">Messaging</a></li>
+                <span class="hidden sm:block text-xs mt-1">Home</span>
+              </li>
+          
 
-            </div>
+           
+              
+              <li
+                class=" flex flex-col items-center justify-center text-gray-600 hover:text-black cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
+                    fill="currentColor"
+                    d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" /></svg>
 
-            <div class="flex flex-col items-center  text-gray-500 ">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path
-                  fill="currentColor"
-                  d="M12 22q-.825 0-1.412-.587T10 20h4q0 .825-.587 1.413T12 22m-8-3v-2h2v-7q0-2.075 1.25-3.687T10.5 4.2v-.7q0-.625.438-1.062T12 2t1.063.438T13.5 3.5v.325q-.25.5-.375 1.05T13 6q0 2.075 1.463 3.538T18 11v6h2v2zM18 9q-1.25 0-2.125-.875T15 6t.875-2.125T18 3t2.125.875T21 6t-.875 2.125T18 9" /></svg>
-              <li class="w-20"><a href="#">Notifications</a></li>
+                <span class="hidden sm:block text-xs mt-1">My Network</span>
+              </li>
+            
 
-            </div>
+            
+             
+
+              <li
+                class=" flex flex-col items-center justify-center text-gray-600 hover:text-black cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
+                    fill="currentColor"
+                    d="M22 19H2v2h20zM4 15c0 .5.2 1 .6 1.4s.9.6 1.4.6V6c-.5 0-1 .2-1.4.6S4 7.5 4 8zm9.5-9h-3c0-.4.1-.8.4-1.1s.6-.4 1.1-.4c.4 0 .8.1 1.1.4c.2.3.4.7.4 1.1M7 6v11h10V6h-2q0-1.2-.9-2.1C13.2 3 12.8 3 12 3q-1.2 0-2.1.9T9 6zm11 11c.5 0 1-.2 1.4-.6s.6-.9.6-1.4V8c0-.5-.2-1-.6-1.4S18.5 6 18 6z" /></svg>
+
+                <span class="hidden sm:block text-xs mt-1">Jobs</span>
+              </li>
+
+          
+
+            
+        
+
+              <li
+                class=" flex flex-col items-center justify-center text-gray-600 hover:text-black cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
+                    fill="currentColor"
+                    d="M21 19v1H3v-1l2-2v-6c0-3.1 2.03-5.83 5-6.71V4a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.29c2.97.88 5 3.61 5 6.71v6zm-7 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2" /></svg>
+
+                <span class="hidden sm:block text-xs mt-1">My Network</span>
+              </li>
+
+           
 
             <!-- Profile image -->
-            <div
-              class="flex flex-col items-center justify-center cursor-pointer">
-              <!-- Profile image -->
+             <li
+                class=" flex flex-col items-center justify-center cursor-pointer">
+                <img src="assets/51734076.jpeg" class="w-6 h-6 rounded-full" />
 
-              <img class="w-6 h-6 rounded-full" src="assets/51734076.jpeg" />
-
-              <!-- Me + dropdown  -->
-              <div class="flex items-center   text-gray-500 leading-none ">
-                <span class="text-xs">Me</span>
-
-                <svg xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6 text-gray-600"
-                  viewBox="0 0 24 24">
-                  <path
-                    fill="currentColor"
-                    d="M11.475 14.475L7.85 10.85q-.075-.075-.112-.162T7.7 10.5q0-.2.138-.35T8.2 10h7.6q.225 0 .363.15t.137.35q0 .05-.15.35l-3.625 3.625q-.125.125-.25.175T12 14.7t-.275-.05t-.25-.175" />
-                </svg>
-              </div>
-            </div>
+                <div
+                  class="hidden sm:flex  items-center gap-1 text-xs text-gray-600 mt-1">
+                  <span>Me</span>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-gray-800 hidden sm:block"
+                    viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      d="M11.475 14.475L7.85 10.85q-.075-.075-.112-.162T7.7 10.5q0-.2.138-.35T8.2 10h7.6q.225 0 .363.15t.137.35q0 .05-.15.35l-3.625 3.625q-.125.125-.25.175T12 14.7t-.275-.05t-.25-.175" />
+                  </svg>
+                </div>
+              </li>
+          
 
             <div class="h-12 w-px bg-gray-200"></div>
+            
 
           </ul>
 
+        
+
           <div
-            class="  hidden sm:flex items-center gap-0 justify-start pt-2  ">
+            class="  hidden sm:flex flex-col sm:flex-row items-center gap-0 justify-start pt-2  ">
             <!-- For Business -->
             <div
               class="flex flex-col items-center text-center justify-center gap-0 cursor-pointer text-sm text-gray-600 hover:text-black ">
@@ -167,6 +177,16 @@
           </div>
 
         </div>
+          <!-- 3 dots icon menu -->
+            <div class="flex items-center sm:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24"
+                viewBox="0 0 256 256"
+                class="text-gray-700">
+                <path fill="currentColor"
+                  d="M144 128a16 16 0 1 1-16-16a16 16 0 0 1 16 16m-84-16a16 16 0 1 0 16 16a16 16 0 0 0-16-16m136 0a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
+              </svg>
+            </div>
 
       </nav>
     </header>
@@ -422,7 +442,7 @@
           <!-- right card1 -->
 
           <div
-            class=" flex flex-col shadow-md rounded-lg overflow-hidden relative w-full  bg-white">
+            class=" flex flex-col shadow-md rounded-lg overflow-hidden relative w-full  bg-white pl-2">
             <div class="flex flex-row justify-between items-center p-2">
               <h3 class="font-bold text-xl text">LinkedNn News</h3>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -435,31 +455,37 @@
 
             <p class="pl-2  font-medium text-md text-gray-500">Top stories</p>
 
-            <div class="flex flex-col gap-1 hover:bg-gray-400 p-2 text-gray-600">
+            <div
+              class="flex flex-col gap-1 hover:bg-gray-100 p-2 text-gray-600">
               <h3 class="text-sm font-bold">HSBD Scraps management scheme</h3>
               <p class="text-xs text-gray-500">1 day ago . 10,027 Readers</p>
 
             </div>
 
-            <div class="flex flex-col gap-1 hover:bg-gray-400 p-2 text-gray-600">
-              <h3 class="text-sm font-bold">Open AI gets to use Disney Charact...</h3>
+            <div
+              class="flex flex-col gap-1 hover:bg-gray-100 p-2 text-gray-600">
+              <h3 class="text-sm font-bold">Open AI gets to use Disney
+                Charact...</h3>
               <p class="text-xs text-gray-500">1 day ago . 10,027 Readers</p>
 
             </div>
 
-            <div class="flex flex-col gap-1 hover:bg-gray-400 p-2 text-gray-600">
+            <div
+              class="flex flex-col gap-1 hover:bg-gray-100 p-2 text-gray-600">
               <h3 class="text-sm font-bold">AI reaching new trends</h3>
               <p class="text-xs text-gray-500">1 day ago . 10,027 Readers</p>
 
             </div>
 
-            <div class="flex flex-col gap-1 hover:bg-gray-400 p-2 text-gray-600">
+            <div
+              class="flex flex-col gap-1 hover:bg-gray-100 p-2 text-gray-600">
               <h3 class="text-sm font-bold">UK Economy shrank in October</h3>
               <p class="text-xs text-gray-500">1 day ago . 10,027 Readers</p>
 
             </div>
 
-            <div class="flex flex-col gap-1 hover:bg-gray-400 p-2 text-gray-600 DD">
+            <div
+              class="flex flex-col gap-1 hover:bg-gray-100 p-2 text-gray-600 DD">
               <h3 class="text-sm font-bold">HSBD Scraps management scheme</h3>
               <p class="text-xs text-gray-500">1 day ago . 10,027 Readers</p>
 
@@ -473,9 +499,8 @@
                   d="m12 15.632l8.968-4.748l-.936-1.768L12 13.368L3.968 9.116l-.936 1.768z" /></svg>
             </div>
 
-            <h3 class=" p-2 font-medium text-gray-500">Trending LinkedIn Puzzles</h3>
-
-             
+            <h3 class=" p-2 font-medium text-gray-500">Trending LinkedIn
+              Puzzles</h3>
 
             <div class="flex felx-row p-2 ">
               <img class="w-14" src="/assets/pink-logo.gif" />
@@ -484,9 +509,14 @@
 
                 <h3 class="font-bold text-sm ">Zip - a quick brain teaser</h3>
 
-                <div class="flex flex-row items-center text-center justify-between gap-24">
-                <p class="text-xs font-light text-gray-500">Solve in 60s or less </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE --><path fill="currentColor" d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"/></svg>
+                <div
+                  class="flex flex-row items-center text-center justify-between gap-24">
+                  <p class="text-xs font-light text-gray-500">Solve in 60s or
+                    less </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24"><!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE --><path
+                      fill="currentColor"
+                      d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z" /></svg>
                 </div>
 
               </div>
@@ -495,30 +525,37 @@
 
           <!-- /rigth card2 -->
 
-          <div class="flex flex-col gap-3 bg-white shadow-md rounded-lg overflow-hidden relative w-full mt-4 ">
+          <div
+            class="flex flex-col gap-3 bg-white shadow-md rounded-lg overflow-hidden relative w-full mt-4 ">
 
             <div class="flex flex-row justify-end items-center mr-1 ">
               <p class="font-medium text-xs  ">Ad </p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE --><path fill="currentColor" d="M144 128a16 16 0 1 1-16-16a16 16 0 0 1 16 16m-84-16a16 16 0 1 0 16 16a16 16 0 0 0-16-16m136 0a16 16 0 1 0 16 16a16 16 0 0 0-16-16"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                viewBox="0 0 256 256"><!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE --><path
+                  fill="currentColor"
+                  d="M144 128a16 16 0 1 1-16-16a16 16 0 0 1 16 16m-84-16a16 16 0 1 0 16 16a16 16 0 0 0-16-16m136 0a16 16 0 1 0 16 16a16 16 0 0 0-16-16" /></svg>
             </div>
 
-            <div class="flex text text-xs text-gray-700 pl-2 pr-2 justify-center items-center text-center font-light">
-             <p>Geetha, enjoy 50% off 2 months of LinkedIn  Premium</p>
+            <div
+              class="flex text text-xs text-gray-700 pl-2 pr-2 justify-center items-center text-center font-light">
+              <p>Geetha, enjoy 50% off 2 months of LinkedIn Premium</p>
             </div>
 
             <div class="flex flex-row items-center pl-12 gap-2">
               <img class="w-16 h-16 rounded-full " src="/assets/51734076.jpeg">
               <div>
-                <img src="/assets/yellow-icon.jpeg"  />
-                
+                <img src="/assets/yellow-icon.jpeg" />
+
               </div>
             </div>
 
-            <div class="pl-2 text-sm font-light text-gray-600 flex justify-center text-center">
+            <div
+              class="pl-2 text-sm font-light text-gray-600 flex justify-center text-center">
               <p>Get hired faster with exclusive tools and features</p>
             </div>
 
-            <button class="flex text-lg mb-3 font-medium text-blue-700 border rounded-full p-2 w-40 text-center items-center justify-center mx-auto">
+            <button
+              class="flex text-lg mb-3 font-medium text-blue-700 border rounded-full p-2 w-40 text-center items-center justify-center mx-auto">
               Redeem offer
             </button>
 
