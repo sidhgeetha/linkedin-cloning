@@ -1,5 +1,7 @@
 ## 💻LinkedIn cloning
 
+Cloning LinkedIn page to understand the layout structure ad responsiveness using Tailwindcss classes.
+
 ## 💻 Technologies Used
 
 - HTML
