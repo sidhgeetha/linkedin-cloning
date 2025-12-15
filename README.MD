@@ -12,6 +12,15 @@ Cloning LinkedIn page to understand the layout structure and responsiveness usin
 ![alt text](image-1.png)
 
 
+## 💻 Learnings
+
+- Focus of layout structure flex/grid to align each element .
+- Tailwind CSS utility classes to build responsive, consistent, and clean designs faster.
+- Learned how to structure components for better visual hierarchy and readability.
+- Tailwidn classes to improve responsiveness.
+- Tailwind classes to keep spacing, alignment, and typography for a better UI.
+
+
 
 #Challanges: 
 
