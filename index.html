@@ -12,7 +12,7 @@
   <body class="bg-gray-100">
     <header class="border-b border-gray-100 bg-white">
       <nav
-        class="  max-w-7xl mx-auto flex items-center justify-between gap-4  px-4 h-14   ">
+        class="  max-w-6xl mx-auto flex items-center justify-between gap-22  px-4 h-14   ">
 
         <!-- Left -->
         <div class="flex items-center gap-4 ">
@@ -33,97 +33,89 @@
             <input
               type="search"
               placeholder="Search"
-              class="hidden sm:block border border-gray-400 rounded-full p-2 pl-8 text-sm w-60 focus:outline-none" />
+              class="hidden sm:block border border-gray-400 rounded-full p-2 pl-8 text-sm w-80 focus:outline-none" />
           </div>
         </div>
 
         <!-- navlinks right -->
 
         <div class="navlinks-center flex items-center ">
-          
-          <ul class="flex items-center gap-8">
-            
-              <!-- nav links inside unordered list -->
-               <!-- home -->
-              <li
-                class=" flex flex-col items-center justify-center text-black-800 hover:text-black cursor-pointer  border-b-2 ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path
-                    fill="currentColor"
-                    d="M5 20v-9.15L2.2 13L1 11.4L12 3l4 3.05V4h3v4.35l4 3.05l-1.2 1.6l-2.8-2.15V20h-5v-6h-4v6zm5-9.975h4q0-.8-.6-1.313T12 8.2t-1.4.513t-.6 1.312" /></svg>
 
-                <span class="hidden sm:block text-xs mt-1">Home</span>
-              </li>
-          
+          <ul class="flex items-center gap-10">
 
-           <!-- networkk -->
-              
-              <li
-                class=" flex flex-col items-center justify-center text-gray-600 hover:text-black cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
-                    fill="currentColor"
-                    d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" /></svg>
+            <!-- nav links inside unordered list -->
+            <!-- home -->
+            <li
+              class=" relative flex flex-col items-center text center justify-center text-black-800 hover:text-black cursor-pointer   ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                viewBox="0 0 24 24"><!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE --><path
+                  fill="currentColor"
+                  d="M19 9.3V5c0-.55-.45-1-1-1h-1c-.55 0-1 .45-1 1v1.6l-3.33-3c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87zm-9 .7c0-1.1.9-2 2-2s2 .9 2 2z" /></svg>
+              <span class="hidden sm:block text-xs mt-1 text-center">Home</span>
 
-                <span class="hidden sm:block text-xs mt-1">My Network</span>
-              </li>
-            
+              <span
+                class="absolute -bottom-[6px] left-1/2 -translate-x-1/2 right-0 h-[2px] w-24 bg-black">
+              </span>
+            </li>
+
+            <!-- networkk -->
+
+            <li
+              class=" flex flex-col items-center justify-center text-stone-500 hover:text-black cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
+                  fill="currentColor"
+                  d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" /></svg>
+
+              <span class="hidden sm:block text-xs mt-1 whitespace-nowrap">My
+                Network</span>
+            </li>
 
             <!-- jobs -->
-             
 
-              <li
-                class=" flex flex-col items-center justify-center text-gray-600 hover:text-black cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
-                    fill="currentColor"
-                    d="M22 19H2v2h20zM4 15c0 .5.2 1 .6 1.4s.9.6 1.4.6V6c-.5 0-1 .2-1.4.6S4 7.5 4 8zm9.5-9h-3c0-.4.1-.8.4-1.1s.6-.4 1.1-.4c.4 0 .8.1 1.1.4c.2.3.4.7.4 1.1M7 6v11h10V6h-2q0-1.2-.9-2.1C13.2 3 12.8 3 12 3q-1.2 0-2.1.9T9 6zm11 11c.5 0 1-.2 1.4-.6s.6-.9.6-1.4V8c0-.5-.2-1-.6-1.4S18.5 6 18 6z" /></svg>
-
-                <span class="hidden sm:block text-xs mt-1">Jobs</span>
-              </li>
-
-          
+            <li
+              class=" flex flex-col items-center justify-center text-stone-500 hover:text-black cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
+                  fill="currentColor"
+                  d="M20 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2M5 13v2h11v-2zm0-4v2h14V9z" /></svg>
+              <span class="hidden sm:block text-xs mt-1">Jobs</span>
+            </li>
 
             <!-- notifications -->
-        
 
-              <li
-                class=" flex flex-col items-center justify-center text-gray-600 hover:text-black cursor-pointer  ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
-                    fill="currentColor"
-                    d="M21 19v1H3v-1l2-2v-6c0-3.1 2.03-5.83 5-6.71V4a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.29c2.97.88 5 3.61 5 6.71v6zm-7 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2" /></svg>
+            <li
+              class=" flex flex-col items-center justify-center text-stone-500 hover:text-black cursor-pointer  ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path
+                  fill="currentColor"
+                  d="M21 19v1H3v-1l2-2v-6c0-3.1 2.03-5.83 5-6.71V4a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.29c2.97.88 5 3.61 5 6.71v6zm-7 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2" /></svg>
 
-                <span class="hidden sm:block text-xs mt-1 text-gray-600">Notifications</span>
-              </li>
-
-           
+              <span
+                class="hidden sm:block text-xs mt-1 text-gray-600">Notifications</span>
+            </li>
 
             <!-- Profile image -->
-             <li
-                class=" flex flex-col items-center justify-center cursor-pointer">
-                <img src="assets/51734076.jpeg" class="w-6 h-6 rounded-full" />
+            <li
+              class=" flex flex-col items-center justify-center cursor-pointer">
+              <img src="assets/51734076.jpeg" class="w-6 h-6 rounded-full" />
 
-                <div
-                  class="hidden sm:flex  items-center gap-1 text-xs text-gray-600 mt-1">
-                  <span>Me</span>
-                  <svg xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6 text-gray-800 hidden sm:block"
-                    viewBox="0 0 24 24">
-                    <path
-                      fill="currentColor"
-                      d="M11.475 14.475L7.85 10.85q-.075-.075-.112-.162T7.7 10.5q0-.2.138-.35T8.2 10h7.6q.225 0 .363.15t.137.35q0 .05-.15.35l-3.625 3.625q-.125.125-.25.175T12 14.7t-.275-.05t-.25-.175" />
-                  </svg>
-                </div>
-              </li>
-          
+              <div
+                class="hidden sm:flex  items-center gap-1 text-xs text-gray-600 mt-1">
+                <span>Me</span>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6 text-gray-800 hidden sm:block"
+                  viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M11.475 14.475L7.85 10.85q-.075-.075-.112-.162T7.7 10.5q0-.2.138-.35T8.2 10h7.6q.225 0 .363.15t.137.35q0 .05-.15.35l-3.625 3.625q-.125.125-.25.175T12 14.7t-.275-.05t-.25-.175" />
+                </svg>
+              </div>
+            </li>
 
             <div class=" hidden sm:block h-12 w-px bg-gray-200"></div>
-            
 
           </ul>
-
-        
 
           <div
             class="  hidden sm:flex flex-col sm:flex-row items-center gap-0 justify-start pt-2  ">
@@ -171,43 +163,43 @@
             <!-- Premium link -->
             <div class="w-50">
               <a href="#"
-                class="ml-4 underline  text-amber-700 hover:underline flex justify-start font-light text-[12px]">
-                Claim 1 free month <br> of Premium
+                class="ml-4 underline  text-orange-800 hover:underline flex justify-start font-light text-[12px]">
+                Claim 1 free month <br> of Premium Page
               </a>
             </div>
           </div>
 
         </div>
-          <!-- 3 dots icon menu -->
-            <div class="flex items-center sm:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                width="24" height="24"
-                viewBox="0 0 256 256"
-                class="text-gray-700">
-                <path fill="currentColor"
-                  d="M144 128a16 16 0 1 1-16-16a16 16 0 0 1 16 16m-84-16a16 16 0 1 0 16 16a16 16 0 0 0-16-16m136 0a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
-              </svg>
-            </div>
+        <!-- 3 dots icon menu -->
+        <div class="flex items-center sm:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg"
+            width="24" height="24"
+            viewBox="0 0 256 256"
+            class="text-gray-700">
+            <path fill="currentColor"
+              d="M144 128a16 16 0 1 1-16-16a16 16 0 0 1 16 16m-84-16a16 16 0 1 0 16 16a16 16 0 0 0-16-16m136 0a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
+          </svg>
+        </div>
 
       </nav>
     </header>
 
     <!-- main section -->
-    <section class="main-section layout-wrapper bg-blend-darken mt-4 px-2 md:mt-6 md:px-4 ">
+    <section
+      class="main-section layout-wrapper bg-blend-darken mt-4 px-2 md:mt-6 md:px-4">
       <div
-        class="layout-container max-w-7xl mx-auto grid grid-cols-12 gap-4 ">
+        class="layout-container max-w-6xl mx-auto grid grid-cols-12 gap-4 ">
 
         <!-- left card1 -->
 
-        <div class="col-span-3 rounded-md relative w-72 space-y-4 ">
-        
+        <div class="col-span-3 rounded-md relative w-60 space-y-4 ">
 
           <!-- profile card -->
           <div
-            class=" flex flex-col shadow-md rounded-lg overflow-hidden relative w-full  bg-white">
+            class=" flex flex-col shadow-md rounded-lg overflow-hidden relative h-60  bg-white">
             <a href="https://www.linkedin.com/in/sidhgeetha/">
               <div
-                class="relative profilecard-background bg-teal-100  h-20 w-full rounded-t-lg">
+                class="relative profilecard-background bg-gray-700  h-20 w-full rounded-t-lg">
 
               </div>
             </a>
@@ -216,7 +208,7 @@
                 class="absolute top-12 left-4 w-16 h-16 ml-2 rounded-full border-2 border-white"
                 src="/assets/51734076.jpeg" alt="Profile" />
             </a>
-            <a class="flex flex-col items-start text-start mt-4 ml-2">
+            <a class="flex flex-col items-start text-start mt-4 ml-5">
               <div>
                 <h3 class="text-center text-xl font-semibold mt-4">Geetha
                   Sidhambar...</h3>
@@ -225,7 +217,7 @@
               <p class="text-center text-sm text-gray-500">United Kingdom</p>
             </a>
 
-            <div class="flex items-center text-center gap-1 mt-3 ml-2 mb-2">
+            <div class="flex items-center text-center gap-1 mt-3 ml-5 mb-2">
               <img class="h-8 w-8 rounded-md"
                 src="/assets/cyberdude_networks_logo.jpeg" />
               <p class="text-xs font-medium text-left leading-tight">Cyberdude
@@ -315,13 +307,13 @@
         </div>
 
         <!-- Item 2: middle -->
-        <div class="col-span-6">
+        <div class="col-span-6 ">
           <!-- wite post card section -->
           <div
             class="flex flex-col gap-2">
 
             <div
-              class=" flex w-full flex-col p-4 pb-16 gap-4 border   h-40 border-slate-300  rounded-xl bg-white">
+              class=" flex w-full flex-col p-4 pb-16 gap-4 border   h-32 border-slate-300  rounded-xl bg-white">
 
               <div class="flex flec-row gap-4">
                 <a href="https://www.linkedin.com/in/sidhgeetha/">
